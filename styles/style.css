@@ -28,7 +28,7 @@ main{
         margin: 70px auto;
     }
 
-.nav{
+.nav-info{
     display: flex;
     justify-content: space-around;
 }
