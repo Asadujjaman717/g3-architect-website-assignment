@@ -186,9 +186,9 @@ footer{
         padding: 10px;
 
     }
-    .sponsors{
-        width: 50%;
-        gap: 20px;
+    .sponsors img{
+        width: 20%;
+        gap: 50px;
     }
     .banner-img{
         width: 100%;
@@ -198,7 +198,7 @@ footer{
         gap: 10px;
     }
     .img-two{
-        width: 100%;
+        width: 50%;
         padding: 5px;
         margin: 0;
         
@@ -206,10 +206,49 @@ footer{
     .footer{
         width: 100%;
     }
+    .ten-years{
+        width: 50%;
+        position: static;
+    }
 
 }
 /* ........................... */
-@media (min-width: 768px) and (max-width: 834px){
+@media screen and (min-width: 577px) and (max-width:960px) {
+    .main-header,.main-section,.features,.some-fact{
+        padding: 40px;
+    }
+    .nav-info,.quick-list,.sponsors img,.features,.some-fact,.sponsors,.some-fact-box{
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .sponsors img{
+        width: 20%;
+        gap: 50px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .quick-list .img{
+        grid-template-columns: 2fr;
+        gap: 10px;
+    }
+    .img-two{
+        width: 50%;
+        padding: 5px;
+        margin: 0;
+        
+    }
+    .footer{
+        width: 100%;
+    }
+    .ten-years{
+        width: 50%;
+        position: static;
+    }
+
+}
+/* @media (min-width: 768px) and (max-width: 834px){
     .main-header, .main-section{
         width: 100%;
     }
@@ -242,5 +281,5 @@ footer{
         width: 90%;
         margin-left: 0;
     }
-}
+} */
      
